@@ -1,0 +1,15 @@
+.button-container {
+    height: 83px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 38px;
+    background-color: #1b1b32;
+    color: whitesmoke;
+    border-radius: 25px;
+    border: 2px solid whitesmoke;
+    margin: 4px;
+    cursor: pointer;
+    user-select: none;
+}

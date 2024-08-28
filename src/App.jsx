@@ -1,5 +1,6 @@
 import freeCodeCampLogo from "./images/freecodecamp-logo.png";
 import './App.css';
+import Button from "./components/Button";
 
 function App() {
 
@@ -14,10 +15,19 @@ function App() {
         />
       </div>
       <div className="calculator-container">
+        <div className="row">
+          <Button>1</Button>
+          <Button>+</Button>
+        </div>
+        <div className="row"></div>
+        <div className="row"></div>
+        <div className="row"></div>
+        <div className="row"></div>
+        
 
       </div>
     </div>
   )
 }
 
-export default App
+export default App;
