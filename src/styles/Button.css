@@ -1,6 +1,7 @@
 .button-container {
     height: 83px;
     display: flex;
+    flex: 1 1; /*Elementos se distribuyan de forma equitativa*/
     align-items: center;
     justify-content: center;
     font-weight: bold;
@@ -12,4 +13,15 @@
     margin: 4px;
     cursor: pointer;
     user-select: none;
+}
+
+.button-container:hover {
+    background-color: #5a01a7;
+}
+
+.operator {
+    background-color: #00471b;
+}
+.operator:hover {
+    background-color: #ff6600;
 }
