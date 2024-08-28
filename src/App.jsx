@@ -1,5 +1,5 @@
-
-
+import freeCodeCampLogo from "./images/freecodecamp-logo.png";
+import './App.css';
 
 function App() {
 
@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <div className="freecodecamp-logo-container">
         <img
-          src=""
+          src={freeCodeCampLogo}
           className="freecodecamp-logo"
           alt="logo"
         />
