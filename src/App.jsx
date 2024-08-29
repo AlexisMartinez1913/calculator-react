@@ -2,6 +2,7 @@ import freeCodeCampLogo from "./images/freecodecamp-logo.png";
 import './App.css';
 import Button from "./components/Button";
 import Screen from "./components/Screen";
+import ButtonClear from "./components/ButtonClear";
 
 function App() {
 
@@ -41,7 +42,9 @@ function App() {
         <Button>.</Button>
         <Button>÷</Button>
         </div>
-        <div className="row"></div>
+        <div className="row">
+          <ButtonClear>Clear</ButtonClear>
+        </div>
         
 
       </div>
