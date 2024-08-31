@@ -8,8 +8,8 @@
     font-weight: bold;
     font-size: 30px;
     background-color: #0a0a23;
-    padding: 11px;
-    padding-right: 30px;
+    color: white;
+    padding: 11px 30px 11px 11px;
     margin: 1px solid #888;
-    box-shadow: -1px 4px 1px 1px whitesmoke;
+    box-shadow: -1px 4px 1px 1px white;
 }

@@ -1,4 +1,4 @@
-import React from 'react';
+
 import "../styles/Button.css";
 
 function Button(props) {
@@ -9,7 +9,8 @@ function Button(props) {
     };
 
     return (
-        <div className={`button-container ${isOperator(props.children) ? 'operator': ''}`.trimEnd()}>
+        <div className={`button-container ${isOperator(props.children) ? 'operator' : ''}`.trimEnd()}
+            onClick={() => props.handleClick(props.children)}>
             {props.children}
 
         </div>
