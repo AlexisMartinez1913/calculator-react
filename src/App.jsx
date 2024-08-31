@@ -1,14 +1,17 @@
-import freeCodeCampLogo from "./images/freecodecamp-logo.png";
+
 import './App.css';
 import Button from "./components/Button";
 import Screen from "./components/Screen";
 import ButtonClear from "./components/ButtonClear";
 import { useState } from "react";
 import {evaluate} from "mathjs";
+import Logo from "./components/Logo";
 
 function App() {
 
   const [input, setInput] = useState('');
+
+  //const operators = ['*', '/', '+', '-'];
 
   const addInput = val => {
     setInput(input + val);
@@ -22,19 +25,13 @@ function App() {
       alert('Please enter values ​​to perform the operation');
     }
     
-
   };
 
 
   return (
     <div className="App">
-      <div className="freecodecamp-logo-container">
-        <img
-          src={freeCodeCampLogo}
-          className="freecodecamp-logo"
-          alt="logo"
-        />
-      </div>
+      <Logo />
+
       <div className="calculator-container">
         <Screen input={input} />
         <div className="row">
